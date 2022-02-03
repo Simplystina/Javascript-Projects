@@ -1,0 +1,116 @@
+body{
+    background-color: rgba(189, 186, 186, 0.199);
+}
+
+.title{
+    text-align: center;
+    margin-top: 100px;
+    line-height: 1px;
+}
+h2{
+    font-size: 35px;
+}
+.underline{
+    background-color: goldenrod;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80px;
+    height: 2px;
+    
+   
+}
+
+.section-center {
+    width: 900px;
+    margin: 0 auto;
+    max-width: 1170px;
+    gap: 30px 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.menu-item {
+    gap: 1rem 2rem;
+    max-width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.photo {
+    object-fit: cover;
+    height: 200px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    
+  }
+
+  .section {
+    padding: 5rem 0;
+  }
+  
+  main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+
+  .item-info header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px dotted var(--clr-grey-5);
+    line-height: 15px;
+  }
+  h4{
+      margin-bottom: 0.5rem;
+      padding-bottom: 30px;
+      margin-top: 0px;
+      margin-right: 50px;
+      margin-left: 0px;
+      font-size: 20px;
+      text-transform: capitalize;
+      
+  }
+  menu-item {
+    display: grid;
+    gap: 1rem 2rem;
+    max-width: 25rem;
+    margin-top: 50rem;
+    margin-bottom: 50rem;
+  }
+
+  .price{
+      padding-left: 150px;
+      color: rgb(219, 174, 59);
+  }
+.item-text{
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-right: 50px;
+    font-size: 0.875rem;
+    
+}
+.btn-container{
+    align-items: center;
+    margin: auto;
+    padding:auto;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.filter-btn {
+    background: transparent;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0 0.5rem;
+    letter-spacing: 1px;
+    padding: 0.375rem 0.75rem;
+    color: goldenrod;
+    transition: 0.5s linear;
+    border-color: goldenrod;
+    border-radius: 5px;
+  }
+  .filter-btn:hover {
+    background: goldenrod;
+    color: white;
+    border-color: white;
+  }

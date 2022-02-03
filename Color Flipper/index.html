@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <style>
+        .container{
+            color: whitesmoke;
+            display: flex;
+            justify-content: space-between;
+            border: oldlace solid 2px;
+            background-color: rgb(115, 145, 145);
+            box-shadow:darkcyan;
+            margin-top: 0px;
+           
+        }
+        #item{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            padding-right: 330px;
+        }
+        .flipper{
+            margin-right: 20px;
+        }
+        li{
+            padding-left: 30px;
+        }
+        h4{
+            margin-left: 100px;
+            padding-left: 200px;
+        }
+        .box{
+            border:darkgray solid 2px;
+            border-radius: 10px;
+            padding-left: 20px;
+            border-bottom-left-radius: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+        .big-box{
+            margin: 200px;
+            width: 400px;
+            margin-left: 400px;
+            padding-left: 30px;
+            margin-top: 100px;
+            
+        }
+        .btn{
+            padding: 20px;
+            margin-left: 100px;
+        }
+        .button{
+            width: 150px;
+            color: whitesmoke;
+            height: 50px;
+            background-color:darkslategray;
+            border-radius: 20px;
+            border: none;
+            
+            
+        }
+        nav{
+            margin-top: 0px;
+            padding-top: auto;
+        }
+
+        a:hover {
+            color:goldenrod
+        }
+        a{
+            color: powderblue;
+            text-decoration: none;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <div class="container">
+            <div class="flipper">
+                <h4>Color Flipper</h4>
+            </div>
+            <div>
+                <ul id="item">
+                    <li id="simple">Simple</li>
+                    <li><a href="hex.html">Hex</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <div class="big-box">
+        <div class="box">
+            <h1>background-color:<span id="color">#F2345</span></h1>
+        </div>
+        <div class="btn">
+            <button class="button">Click me</button>
+        </div>
+        
+    </div>
+    <script src="index.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <style>
+        body{
+            background-color: rgb(40, 143, 40);
+            text-align: center;
+            color:white;
+            font-weight: bold;
+            
+        }
+        #BlackJack{
+            color:rgb(233, 172, 18);
+            font-weight: bolder
+        }
+        #greeting{
+            color: goldenrod;
+        }
+        #startbtn, #newbtn{
+            background-color: rgb(255, 183, 0);
+            color: green;
+            width: 150px;
+            border: none;
+            height: 25px;
+            font-weight: bold;
+            margin:5px;
+            border-radius: 4px
+        }
+        @media only screen and (max-width: 1000px){
+                .container{ width: 400px}
+            }
+        .container{
+            border: 23px;
+            background-color: rgb(211, 198, 181);
+            margin: 350px;
+            margin-top: 50px;
+            border-radius: 30px;
+            border-style: hidden;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h1 id="greeting"><i>Welcome to BlackJack Game</i></h1>
+    <div class="container">
+        <h1 id="BlackJack">Black Jack</h1>
+        <i><p id="message">Want to play around?</p></i>
+        <p id="cards">Cards:</p>
+        <p id="sum">Sum:</p>
+        <button id="startbtn" onclick="startGame()">Start Game</button>
+        <button id="newbtn" onclick="newGame()">New Card</button>
+        <p id="player">Per: $145</p>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

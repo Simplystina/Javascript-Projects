@@ -1,0 +1,239 @@
+
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+body{
+    margin: 0px
+}
+
+
+
+.fixed-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 5px 15px;
+  }
+  .fixed-nav a{
+    color: hsl(205, 86%, 17%)
+  }
+.nav-toggle {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.897);
+    background: transparent;
+    border-color: transparent;
+    transition: 0.5s linear;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0;
+    display: none;
+ }
+
+ 
+
+  .nav-toggle:hover {
+    color: rgb(24, 98, 236);
+    transform:rotateZ(90deg);
+  }
+
+
+.links-container{
+    transition: 0.5s linear;
+    margin: 0px;
+    height: 0px;
+    
+    
+    
+}
+nav {
+    background: var(--clr-white);
+    padding: 1rem 1.5rem;
+}
+@media screen and (max-width: 800px) {
+    .nav-toggle{
+        display: block;
+    }
+    .nav-link{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: white;
+        box-shadow: 0 5px 15px;
+    }
+    .banner{
+        min-height: 200vh;
+        background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(56, 51, 51, 0.7)),
+        url(./hero-bcg.jpeg) center/cover no-repeat;
+        min-height: 400vh;
+        display: grid;
+          
+        
+    }
+    .nav-header{
+        margin-left: auto;
+        padding-left: 0px;
+    }
+    .logo{
+        margin-left: 0px;
+        padding-left: 0px;
+        height: 0px;
+        width: 10px;
+    }
+    
+    .links{
+        margin: 0px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+            
+    }
+    .links-container{
+        background-color: white;
+        overflow: hidden;
+    }
+    .nav-links a{
+        color: hsl(205, 86%, 17%)
+    }
+
+}
+
+@media screen and (min-width: 800px){
+    
+
+    .links{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+    
+    header {
+        min-height: 100vh;
+        background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(56, 51, 51, 0.7)),
+          url(./hero-bcg.jpeg) center/cover no-repeat;
+      }
+      .nav-links{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .nav-link{
+        height: 30px;
+    }
+
+}
+
+li{
+    
+    list-style: none;
+    padding: 15px;
+}
+li :hover{
+    transition: 1s ease-in-out;
+    color: turquoise;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.logo{
+    height: 50px;
+    padding: 30px;
+    width: 100px;
+}
+.banner{
+    min-height: 120vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.banner p, h1{
+    color: whitesmoke;
+  }
+.container h1{
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.container p{
+    margin: 0 auto;
+    margin-bottom: 1.25rem;
+    max-width: 30rem;
+}
+
+
+main {
+    min-height: 1000vh;
+    display: grid;
+    place-items: center;
+}
+
+.btn{
+    border: 2px solid white;
+    padding: 10px;
+    transition: 0.5s linear;
+}
+.scroll-link{
+    font-size: 15px;
+    font-style: normal;
+    text-transform: uppercase;
+    color:whitesmoke;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: cornflowerblue;
+}
+.about .services .tours, h1{
+    color: rgba(0, 0, 0, 0.712);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 35px;
+}
+section span{
+    color: cornflowerblue;
+}
+.about, .services, .tours {
+    height: 90vh;
+    background-color: whitesmoke;
+    padding-top: 1px;
+    line-height: 0px;
+    text-align: center;
+    
+}
+.services{
+    background-color: white;
+}
+
+.footer{
+    height: 30vh;
+    background-color: cornflowerblue;
+    padding-top: 30px;
+    text-align-last: center;
+}
+
+.footer p {
+    color: var(--clr-white);
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: whitesmoke;
+  }
+
+  
