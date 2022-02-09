@@ -1,0 +1,97 @@
+body{
+    background :hsl(210, 36%, 96%);
+    
+    display: grid;
+    place-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.gift-img{
+    width: 100%;
+    height: 20rem;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 50px;
+    width: 80vw;
+    margin: 5rem auto;
+    max-width: 1100px;
+      
+}
+@media screen and (max-width:992px){
+    .content{
+        display:inline;
+        max-width: 1170px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+        
+    }
+    .gift-img{
+        height: 25rem;
+        width: 100%;
+    }
+}
+.gift-info{
+    margin-bottom: 30px;
+    
+}
+.gift-info h1{
+    text-transform: uppercase;
+     color: hsl(205, 72%, 37%);
+     font-size: 1.35rem;
+     letter-spacing: 4px;
+     padding: auto;
+}
+.gift-info h4{
+    color: hsl(206, 9%, 16%);
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.gift-info p{
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: hsl(209, 23%, 60%);
+}
+.deadline{
+    display: flex;
+    padding-top: 40px;
+    
+}
+.deadline-format{
+background: hsl(209, 61%, 16%);
+  color:  whitesmoke;
+  margin-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  text-align: center;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.deadline-format span {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.95rem;
+    color: whitesmoke;
+    font-weight:lighter;
+    padding-bottom: 10px;
+    line-height: 0px;
+    padding-top: 25px;
+    
+  }
+.deadline-format h4{
+    color: whitesmoke;
+    font-size: 40px;
+    margin: 0px;
+    
+}
+.deadline .expired{
+    text-transform: uppercase;
+     color: hsl(205, 72%, 37%);
+     font-size: 1.35rem;
+     letter-spacing: 3px;
+}
